@@ -6,7 +6,7 @@ body{
     #d2e8f4) ;
     background-attachment: fixed;    
 }
-@media(max-width: 600px){
+@media(min-width: 600.1px){
   .container{
     height: 30rem;
 }
