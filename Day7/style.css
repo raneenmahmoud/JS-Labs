@@ -1,0 +1,73 @@
+.login_Box{  
+    height: 65%;
+    background: rgba(0, 0, 0, 0.5);
+    color:#fff;
+    top:50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    top: -50px;
+    left: calc(50% - 50px);
+    position: absolute;
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+}
+.login_Box p{
+    margin: 0;
+    padding: 0 0 20px;
+    font-weight: bold;
+    font-size: 20px
+}
+.login_Box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.login_Box input[type="text"],input[type="password"]{
+    height: 40px;
+    border-bottom: 1px solid #fff;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    outline: none;
+    background: transparent;
+    color:#fff;
+    font-size: 18px;
+}
+.login_Box input[type="submit"]{
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius:20px ;
+    background: #2889cf;
+    color:#fff;
+    font-size: 18px;
+}
+@media(max-width:400px){
+    .login_Box{
+        width: 60%;}
+    }
+@media(max-width: 400.1px) and (min-width: 500px) {
+    .login_Box{
+        width:35%;}
+    }
+@media(min-width:500.1px){
+        .login_Box{
+            width: 25%;}
+        }  
+/* .login_Box input[type="submit"]:hover{
+    cursor: pointer;
+    background: rgb(153, 153, 153);
+} */

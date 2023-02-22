@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form </title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body id="body">
+        <h1>Login</h1>
+        <div class="login_Box">
+            <img src="./assests/icon.png" class="avatar" alt="avatar img">
+            <h1>Login Form</h1>
+            <form id="FormID" action="action.php" onsubmit="return Check()">
+                <p>Username</p>
+                <input type="text" name="" id="name" autocomplete="off" placeholder="Username" 
+                onfocus="putborder(this)" onblur="removeborder(this)" required />
+                <p>Passowrd</p>
+                <input type="password" name="password" id="pass" autocomplete="off" placeholder="Password" 
+                onfocus="putborder(this)" onblur="removeborder(this)" required/>
+                <br><br>
+                <input type="submit" value="Login" id="submmit" onmouseover="changeBackground(this.id, '#c0c0c0');"
+                   onmouseout="changeBackground(this.id, '#2889cf');"/>
+            </form>
+        </div>
+    <script src="form.js"> </script>
+</body>
+</html>
+<!-- <style>
+      body  { margin: 0; padding: 0; }
+    
+        html { 
+            background: url('./assests/form.jpg') no-repeat center fixed; 
+            /* -webkit-background-size: cover; */
+            /* -moz-background-size: cover; */
+            /* -o-background-size: cover; */
+            background-size: cover;
+        }
+    </style> -->
