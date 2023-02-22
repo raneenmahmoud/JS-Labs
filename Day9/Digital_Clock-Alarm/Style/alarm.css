@@ -1,0 +1,26 @@
+input{
+    border:none;
+    border-radius: 10px;
+    outline: none;
+}
+select{
+    border:1px solid black;
+    outline: none;
+    border-radius: 10px;
+    height: 150px;
+    background-color: transparent;
+    width: 80%;
+    padding: 2%;
+}
+.setbutton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.setbutton button{
+    font-size: 30px;
+    color: white;
+}
+/* .houer{
+    border: 1px solid;
+} */
