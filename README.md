@@ -1,11 +1,11 @@
 # JS-Labs
 ## Lab7:
  https://raneenmahmoud.github.io/JS-Labs/Day7/form.html
- <hr>
+ <br>
  ## Lab8:
  https://raneenmahmoud.github.io/JS-Labs/Day8/Todo_List
- <hr>
+ <br>
  ## Lab9:
  https://raneenmahmoud.github.io/JS-Labs/Day9/Digital_Clock-Alarm
- 
+ <br>
  https://raneenmahmoud.github.io/JS-Labs/Day9/Sliders_Images
